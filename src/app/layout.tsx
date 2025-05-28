@@ -1,10 +1,15 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "@/app/globals.css";
-import { ClerkProvider } from "@clerk/nextjs";
-import { ThemeProvider } from "@/components/ThemeProvider";
-import Navbar from "@/components/Navbar";
-import Sidebar from "@/components/Sidebar";
+import type { Metadata } from "next"
+import { Geist, Geist_Mono } from "next/font/google"
+import { ClerkProvider } from "@clerk/nextjs"
+import { ThemeProvider } from "@/components/ThemeProvider"
+import { Toaster } from 'react-hot-toast'
+
+import Navbar from "@/components/Navbar"
+import Sidebar from "@/components/Sidebar"
+
+
+import "@/app/globals.css"
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -49,6 +54,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 </div>
               </main>
             </div>
+
+            <Toaster />
           </ThemeProvider>
         </body>
       </html>
