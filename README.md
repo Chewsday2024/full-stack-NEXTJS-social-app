@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NextJS 全端 社交網站
 
-## Getting Started
+>在Udemy上跟著教學影片完成的作品<br />
 
-First, run the development server:
+🚀[作品連結](https://full-stack-nextjs-social-app.vercel.app)<br />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br />
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 作品測試資訊
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 這個作品有使用認證工具Clerk，使用你的帳號的話會留下資訊所以請使用這個測試用信箱網站測試：https://maildrop.cc，用這個網站生成的信箱註冊
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+<br />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 使用技術
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `React`
+- `TypeScript`
+- `NextJS`
+- `TailwindCSS`
+- `Shadcn UI`
+- `Clerk`
+- `RWD`
 
-## Deploy on Vercel
+<br />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 資料庫
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `NeonDB`
+  - 資料庫工具：`Prisma`
+
+<br />
+
+## 版本控制
+
+- `Git`
+
+<br />
+
+## 佈署網站
+
+- `Vercel`
